@@ -1,0 +1,65 @@
+@font-face { font-family: Alata; src: url('fonts/Alata-Regular.ttf'); } 
+@font-face { font-family: Alata; font-weight: bold; src: url('fonts/Alata-Regular.ttf');}
+
+@font-face { font-family: NTR; src: url('fonts/NTR-Regular.ttf'); } 
+@font-face { font-family: NTR; font-weight: bold; src: url('fonts/NTR-Regular.ttf');}
+
+* {
+  font-family: NTR, sans-serif;
+  line-height: 1;
+}
+
+body {
+    background: linear-gradient(#28AFB0 50%, #19647E 50%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #82D173;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 20vh;
+}
+  
+.item {
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+@media only screen and (max-width:960px) {
+    * {
+        font-family: NTR, sans-serif;
+        line-height: 1;
+      }
+      
+      body {
+          background: linear-gradient(#28AFB0 50%, #19647E 50%);
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          min-height: 100vh;
+      }
+      
+      .card {
+          background-color: #82D173;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 15em;
+          height: 10em;
+      }
+        
+      .item {
+          margin: 10px; /* Adjust the margin as needed */
+      }
+}
