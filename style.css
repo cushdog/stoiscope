@@ -27,10 +27,12 @@ body {
     justify-content: center;
     width: 20vw;
     height: fit-content;
+    border-radius: 0.2em;
 }
   
 .item {
     margin: 10px; /* Adjust the margin as needed */
+    color: #334E58;
 }
 
 @media only screen and (max-width:960px) {
@@ -57,6 +59,7 @@ body {
           justify-content: center;
           width: 15em;
           height: fit-content;
+          border-radius: 0.2em;
       }
         
       .item {
